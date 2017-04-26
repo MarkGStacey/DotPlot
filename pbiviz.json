@@ -1,0 +1,36 @@
+{
+  "visual": {
+    "name": "dotPlotByOKViz",
+    "displayName": "Dot Plot by OKViz",
+    "guid": "PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Dot Plot by OKViz allows you to compare multiple measures by their magnitude, representing each data point with a simple dot.",
+    "supportUrl": "http://okviz.com/dot-plot/",
+    "gitHubUrl": "https://github.com/okviz/dotplot"
+  },
+  "apiVersion": "1.5.0",
+  "author": {
+    "name": "OKViz - a trademark of SQLBI",
+    "email": "support@okviz.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [
+    "node_modules/jquery/dist/jquery.min.js",
+    "node_modules/d3/d3.min.js",
+    "node_modules/lodash/lodash.min.js",
+    "node_modules/globalize/lib/globalize.js",
+    "node_modules/globalize/lib/cultures/globalize.culture.en-US.js",
+    "node_modules/powerbi-visuals-utils-typeutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-svgutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-formattingutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-tooltiputils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-interactivityutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-chartutils/lib/index.js"
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json"
+}
