@@ -14310,8 +14310,8 @@ var powerbi;
     (function (extensibility) {
         var visual;
         (function (visual) {
-            var PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7;
-            (function (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7) {
+            var dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855;
+            (function (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855) {
                 /**
                  * Singleton reference of ColorPalette.
                  *
@@ -14330,7 +14330,7 @@ var powerbi;
                         colorManager = new ColorPalette(colors);
                     return colorManager;
                 }
-                PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.createColorPalette = createColorPalette;
+                dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.createColorPalette = createColorPalette;
                 var ColorPalette = (function () {
                     function ColorPalette(colors) {
                         this.colorPalette = {};
@@ -14374,7 +14374,7 @@ var powerbi;
                     };
                     return ColorPalette;
                 }());
-            })(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 || (visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = {}));
+            })(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 || (visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = {}));
         })(visual = extensibility.visual || (extensibility.visual = {}));
     })(extensibility = powerbi.extensibility || (powerbi.extensibility = {}));
 })(powerbi || (powerbi = {}));
@@ -14384,8 +14384,8 @@ var powerbi;
     (function (extensibility) {
         var visual;
         (function (visual) {
-            var PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7;
-            (function (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7) {
+            var dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855;
+            (function (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855) {
                 /**
                  * Gets property value for a particular object.
                  *
@@ -14407,7 +14407,7 @@ var powerbi;
                     }
                     return defaultValue;
                 }
-                PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue = getValue;
+                dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue = getValue;
                 /**
                  * Gets property value for a particular object in a category.
                  *
@@ -14434,8 +14434,8 @@ var powerbi;
                     }
                     return defaultValue;
                 }
-                PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getCategoricalObjectValue = getCategoricalObjectValue;
-            })(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 || (visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = {}));
+                dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getCategoricalObjectValue = getCategoricalObjectValue;
+            })(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 || (visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = {}));
         })(visual = extensibility.visual || (extensibility.visual = {}));
     })(extensibility = powerbi.extensibility || (powerbi.extensibility = {}));
 })(powerbi || (powerbi = {}));
@@ -14445,8 +14445,8 @@ var powerbi;
     (function (extensibility) {
         var visual;
         (function (visual) {
-            var PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7;
-            (function (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7) {
+            var dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855;
+            (function (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855) {
                 var TextUtility;
                 (function (TextUtility) {
                     var canvasCtx;
@@ -14582,7 +14582,7 @@ var powerbi;
             
                         return lines;
                     }*/
-                })(TextUtility = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.TextUtility || (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.TextUtility = {}));
+                })(TextUtility = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.TextUtility || (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.TextUtility = {}));
                 var PixelConverter;
                 (function (PixelConverter) {
                     var PxPtRatio = 4 / 3;
@@ -14620,8 +14620,8 @@ var powerbi;
                         return px / PxPtRatio;
                     }
                     PixelConverter.toPoint = toPoint;
-                })(PixelConverter = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.PixelConverter || (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.PixelConverter = {}));
-            })(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 || (visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = {}));
+                })(PixelConverter = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.PixelConverter || (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.PixelConverter = {}));
+            })(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 || (visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = {}));
         })(visual = extensibility.visual || (extensibility.visual = {}));
     })(extensibility = powerbi.extensibility || (powerbi.extensibility = {}));
 })(powerbi || (powerbi = {}));
@@ -14635,8 +14635,8 @@ var powerbi;
     (function (extensibility) {
         var visual;
         (function (visual) {
-            var PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7;
-            (function (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7) {
+            var dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855;
+            (function (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855) {
                 var VisualBehavior = (function () {
                     function VisualBehavior() {
                     }
@@ -14661,7 +14661,7 @@ var powerbi;
                     };
                     return VisualBehavior;
                 }());
-                PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.VisualBehavior = VisualBehavior;
+                dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.VisualBehavior = VisualBehavior;
                 function appendLegendMargins(legend, margins) {
                     if (legend) {
                         var legendViewPort = legend.getMargins();
@@ -14683,13 +14683,13 @@ var powerbi;
                     }
                     return margins;
                 }
-                PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.appendLegendMargins = appendLegendMargins;
+                dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.appendLegendMargins = appendLegendMargins;
                 function getFillOpacity(selected, highlight, hasSelection, hasPartialHighlights) {
                     if ((hasPartialHighlights && !highlight) || (hasSelection && !selected))
                         return 0.3;
                     return 1;
                 }
-                PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getFillOpacity = getFillOpacity;
+                dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getFillOpacity = getFillOpacity;
                 function replaceLegendIconsWithCustom(itemsWithCustomIcons) {
                     if (itemsWithCustomIcons.length > 0) {
                         var group = d3.select('#legendGroup');
@@ -14751,8 +14751,8 @@ var powerbi;
                         });
                     }
                 }
-                PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.replaceLegendIconsWithCustom = replaceLegendIconsWithCustom;
-            })(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 || (visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = {}));
+                dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.replaceLegendIconsWithCustom = replaceLegendIconsWithCustom;
+            })(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 || (visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = {}));
         })(visual = extensibility.visual || (extensibility.visual = {}));
     })(extensibility = powerbi.extensibility || (powerbi.extensibility = {}));
 })(powerbi || (powerbi = {}));
@@ -14767,8 +14767,8 @@ var powerbi;
     (function (extensibility) {
         var visual;
         (function (visual_1) {
-            var PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7;
-            (function (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7) {
+            var dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855;
+            (function (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855) {
                 var OKVizUtility;
                 (function (OKVizUtility) {
                     var Formatter = (function () {
@@ -14845,7 +14845,7 @@ var powerbi;
                         if (options.type !== powerbi.VisualUpdateType.Data && options.type !== powerbi.VisualUpdateType.ViewMode && options.type !== powerbi.VisualUpdateType.All)
                             return;
                         var persistU = false;
-                        var u = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(options.dataViews[0].metadata.objects, "t", "u", null);
+                        var u = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(options.dataViews[0].metadata.objects, "t", "u", null);
                         if (!u) {
                             u = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
                                 var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
@@ -15164,8 +15164,8 @@ var powerbi;
                         }, 1);
                     }
                     OKVizUtility.spinner = spinner;
-                })(OKVizUtility = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility || (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility = {}));
-            })(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = visual_1.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 || (visual_1.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = {}));
+                })(OKVizUtility = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility || (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility = {}));
+            })(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = visual_1.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 || (visual_1.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = {}));
         })(visual = extensibility.visual || (extensibility.visual = {}));
     })(extensibility = powerbi.extensibility || (powerbi.extensibility = {}));
 })(powerbi || (powerbi = {}));
@@ -15179,8 +15179,8 @@ var powerbi;
     (function (extensibility) {
         var visual;
         (function (visual) {
-            var PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7;
-            (function (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7) {
+            var dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855;
+            (function (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855) {
                 var OKVizUtility;
                 (function (OKVizUtility) {
                     var visionDefs = '<defs><filter id="visionNormal"><feColorMatrix values="1 0 0 0 0				0 1 0 0 0				0 0 1 0 0				0 0 0 1 0"/></filter><filter id="visionProtanopia" color-interpolation-filters="sRGB"><feColorMatrix values="0.152286 1.052583 -0.204868 0 0				0.114503 0.786281 0.099216 0 0				-0.003882 -0.048116 1.051998 0 0				0 0 0 1 0"/><feComponentTransfer><feFuncB type="gamma" exponent=".9"/><feFuncR type="gamma" exponent=".9"/><feFuncG type="gamma" exponent=".9"/></feComponentTransfer></filter><filter id="visionProtanomaly" color-interpolation-filters="sRGB"><feColorMatrix values="0.458064 0.679578 -0.137642 0 0				0.092785 0.846313 0.060902 0 0				-0.007494 -0.016807 1.024301 0 0				0 0 0 1 0"/><feComponentTransfer><feFuncB type="gamma" exponent=".9"/><feFuncR type="gamma" exponent=".9"/><feFuncG type="gamma" exponent=".9"/></feComponentTransfer></filter><filter id="visionDeuteranopia" color-interpolation-filters="sRGB"><feColorMatrix values="0.367322 0.860646 -0.227968 0 0				0.280085 0.672501 0.047413 0 0				-0.011820 0.042940 0.968881 0 0				0 0 0 1 0"/><feComponentTransfer><feFuncB type="gamma" exponent=".9"/><feFuncR type="gamma" exponent=".9"/><feFuncG type="gamma" exponent=".9"/></feComponentTransfer></filter><filter id="visionDeuteranomaly" color-interpolation-filters="sRGB"><feColorMatrix values="0.547494 0.607765 -0.155259 0 0				0.181692 0.781742 0.036566 0 0				-0.010410 0.027275 0.983136 0 0				0 0 0 1 0"/><feComponentTransfer><feFuncB type="gamma" exponent=".9"/><feFuncR type="gamma" exponent=".9"/><feFuncG type="gamma" exponent=".9"/></feComponentTransfer></filter><filter id="visionTritanopia" color-interpolation-filters="sRGB"><feColorMatrix values="1.255528 -0.076749 -0.178779 0 0				-0.078411 0.930809 0.147602 0 0				0.004733 0.691367 0.303900 0 0				0 0 0 1 0"/><feComponentTransfer><feFuncB type="gamma" exponent=".9"/><feFuncR type="gamma" exponent=".9"/><feFuncG type="gamma" exponent=".9"/></feComponentTransfer></filter><filter id="visionTritanomaly" color-interpolation-filters="sRGB"><feColorMatrix values="1.017277 0.027029 -0.044306 0 0				-0.006113 0.958479 0.047634 0 0				0.006379 0.248708 0.744913 0 0				0 0 0 1 0"/><feComponentTransfer><feFuncB type="gamma" exponent=".9"/><feFuncR type="gamma" exponent=".9"/><feFuncG type="gamma" exponent=".9"/></feComponentTransfer></filter><filter id="visionAchromatopsia" color-interpolation-filters="sRGB"><feColorMatrix values="0.212656 0.715158 0.072186 0 0				0.212656 0.715158 0.072186 0 0				0.212656 0.715158 0.072186 0 0				0 0 0 1 0"/><feColorMatrix type="saturate" values="0" color-interpolation-filters="sRGB"/><feComponentTransfer><feFuncR type="gamma" exponent=".9"/><feFuncG type="gamma" exponent=".9"/><feFuncB type="gamma" exponent=".9"/></feComponentTransfer></filter><filter id="visionAchromatomaly" color-interpolation-filters="sRGB"><feColorMatrix type="saturate" values="0.5"/><feComponentTransfer><feFuncR type="gamma" exponent=".9"/><feFuncG type="gamma" exponent=".9"/><feFuncB type="gamma" exponent=".9"/></feComponentTransfer></filter><filter id="visionLowContrast" color-interpolation-filters="sRGB"><feComponentTransfer><feFuncR type="linear" slope=".5" intercept=".25"/><feFuncG type="linear" slope=".5" intercept=".25"/><feFuncB type="linear" slope=".5" intercept=".25"/></feComponentTransfer></filter></defs>';
@@ -15208,8 +15208,8 @@ var powerbi;
                         applyColorBlindVision('normal', element);
                     }
                     OKVizUtility.revertColorBlindVision = revertColorBlindVision;
-                })(OKVizUtility = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility || (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility = {}));
-            })(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 || (visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = {}));
+                })(OKVizUtility = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility || (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility = {}));
+            })(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 || (visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = {}));
         })(visual = extensibility.visual || (extensibility.visual = {}));
     })(extensibility = powerbi.extensibility || (powerbi.extensibility = {}));
 })(powerbi || (powerbi = {}));
@@ -15245,8 +15245,8 @@ var powerbi;
     (function (extensibility) {
         var visual;
         (function (visual) {
-            var PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7;
-            (function (PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7) {
+            var dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855;
+            (function (dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855) {
                 function defaultSettings() {
                     return {
                         dataPoint: {
@@ -15296,41 +15296,41 @@ var powerbi;
                         var objects = dataViews[0].metadata.objects;
                         settings = {
                             dataPoint: {
-                                fillShapes: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "dataPoint", "fillShapes", settings.dataPoint.fillShapes),
-                                defaultFill: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "dataPoint", "defaultFill", settings.dataPoint.defaultFill),
-                                showAll: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "dataPoint", "showAll", settings.dataPoint.showAll),
+                                fillShapes: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "dataPoint", "fillShapes", settings.dataPoint.fillShapes),
+                                defaultFill: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "dataPoint", "defaultFill", settings.dataPoint.defaultFill),
+                                showAll: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "dataPoint", "showAll", settings.dataPoint.showAll),
                             },
                             dataLabels: {
-                                show: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "dataLabels", "show", settings.dataLabels.show),
-                                fontSize: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "dataLabels", "fontSize", settings.dataLabels.fontSize),
-                                fill: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "dataLabels", "fill", settings.dataLabels.fill),
-                                unit: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "dataLabels", "unit", settings.dataLabels.unit),
-                                precision: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "dataLabels", "precision", settings.dataLabels.precision)
+                                show: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "dataLabels", "show", settings.dataLabels.show),
+                                fontSize: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "dataLabels", "fontSize", settings.dataLabels.fontSize),
+                                fill: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "dataLabels", "fill", settings.dataLabels.fill),
+                                unit: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "dataLabels", "unit", settings.dataLabels.unit),
+                                precision: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "dataLabels", "precision", settings.dataLabels.precision)
                             },
                             xAxis: {
-                                show: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "xAxis", "show", settings.xAxis.show),
-                                gridline: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "xAxis", "gridline", settings.xAxis.gridline),
-                                type: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "xAxis", "type", settings.xAxis.type),
-                                fill: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "xAxis", "fill", settings.xAxis.fill)
+                                show: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "xAxis", "show", settings.xAxis.show),
+                                gridline: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "xAxis", "gridline", settings.xAxis.gridline),
+                                type: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "xAxis", "type", settings.xAxis.type),
+                                fill: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "xAxis", "fill", settings.xAxis.fill)
                             },
                             yAxis: {
-                                show: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "yAxis", "show", settings.yAxis.show),
-                                start: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "yAxis", "start", settings.yAxis.start),
-                                end: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "yAxis", "end", settings.yAxis.end),
-                                fill: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "yAxis", "fill", settings.yAxis.fill),
-                                unit: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "yAxis", "unit", settings.yAxis.unit),
-                                precision: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "yAxis", "precision", settings.yAxis.precision)
+                                show: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "yAxis", "show", settings.yAxis.show),
+                                start: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "yAxis", "start", settings.yAxis.start),
+                                end: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "yAxis", "end", settings.yAxis.end),
+                                fill: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "yAxis", "fill", settings.yAxis.fill),
+                                unit: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "yAxis", "unit", settings.yAxis.unit),
+                                precision: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "yAxis", "precision", settings.yAxis.precision)
                             },
                             legend: {
-                                show: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "legend", "show", settings.legend.show),
-                                position: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "legend", "position", settings.legend.position),
-                                showTitle: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "legend", "showTitle", settings.legend.showTitle),
-                                titleText: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "legend", "titleText", settings.legend.titleText),
-                                labelColor: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "legend", "labelColor", settings.legend.labelColor),
-                                fontSize: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "legend", "fontSize", settings.legend.fontSize)
+                                show: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "legend", "show", settings.legend.show),
+                                position: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "legend", "position", settings.legend.position),
+                                showTitle: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "legend", "showTitle", settings.legend.showTitle),
+                                titleText: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "legend", "titleText", settings.legend.titleText),
+                                labelColor: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "legend", "labelColor", settings.legend.labelColor),
+                                fontSize: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "legend", "fontSize", settings.legend.fontSize)
                             },
                             colorBlind: {
-                                vision: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(objects, "colorBlind", "vision", settings.colorBlind.vision),
+                                vision: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(objects, "colorBlind", "vision", settings.colorBlind.vision),
                             }
                         };
                         //Limit some properties
@@ -15364,7 +15364,7 @@ var powerbi;
                         var categories = (category ? category.values : ['']);
                         var group = dataCategorical.values.grouped();
                         for (var i = 0; i < categories.length; i++) {
-                            var categoryValue = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility.makeMeasureReadable(categories[i]);
+                            var categoryValue = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility.makeMeasureReadable(categories[i]);
                             for (var ii = 0; ii < dataCategorical.values.length; ii++) {
                                 var dataValue = dataCategorical.values[ii];
                                 if (dataValue.source.roles['values']) {
@@ -15382,23 +15382,23 @@ var powerbi;
                                         if (dataValue.source.groupName) {
                                             identity = host.createSelectionIdBuilder().withSeries(dataCategorical.values, dataValue).createSelectionId();
                                             showLegend = true;
-                                            legendValue = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility.makeMeasureReadable(dataValue.source.groupName);
+                                            legendValue = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility.makeMeasureReadable(dataValue.source.groupName);
                                             var defaultColor = { solid: { color: host.colorPalette.getColor(legendValue).value } };
-                                            color = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(group[ii].objects, 'dataPoint', 'fill', defaultColor).solid.color;
+                                            color = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(group[ii].objects, 'dataPoint', 'fill', defaultColor).solid.color;
                                         }
                                         else if (dataCategorical.values.length > 1 || !category) {
                                             identity = host.createSelectionIdBuilder().withMeasure(dataValue.source.queryName).createSelectionId();
                                             showLegend = true;
                                             legendValue = dataValue.source.displayName;
                                             var defaultColor = { solid: { color: host.colorPalette.getColor(legendValue).value } };
-                                            color = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getValue(dataValue.source.objects, 'dataPoint', 'fill', defaultColor).solid.color;
+                                            color = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getValue(dataValue.source.objects, 'dataPoint', 'fill', defaultColor).solid.color;
                                         }
                                         else if (category) {
                                             identity = host.createSelectionIdBuilder().withCategory(category, i).createSelectionId();
                                             showLegend = false;
                                             legendValue = categoryValue;
                                             if (settings.dataPoint.showAll)
-                                                color = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.getCategoricalObjectValue(category, i, 'dataPoint', 'fill', settings.dataPoint.defaultFill).solid.color;
+                                                color = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.getCategoricalObjectValue(category, i, 'dataPoint', 'fill', settings.dataPoint.defaultFill).solid.color;
                                         }
                                         if (category) {
                                             tooltips.push({
@@ -15411,10 +15411,10 @@ var powerbi;
                                             tooltips.push({
                                                 displayName: "Legend",
                                                 color: '#333',
-                                                value: PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility.makeMeasureReadable(dataValue.source.groupName)
+                                                value: dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility.makeMeasureReadable(dataValue.source.groupName)
                                             });
                                         }
-                                        var formattedValue = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility.Formatter.format(value, {
+                                        var formattedValue = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility.Formatter.format(value, {
                                             format: dataValue.source.format,
                                             formatSingleValues: true,
                                             allowFormatBeautification: false
@@ -15474,7 +15474,7 @@ var powerbi;
                         this.model = { dataPoints: [], legendDataPoints: [], showLegend: false, domain: { startForced: false, endForced: false }, settings: {} };
                         this.element = d3.select(options.element);
                         this.interactivityService = InteractivityModule.createInteractivityService(options.host);
-                        this.behavior = new PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.VisualBehavior();
+                        this.behavior = new dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.VisualBehavior();
                         this.legend = LegendModule.createLegend($(options.element), false, this.interactivityService, true, LegendPosition.Top);
                     }
                     Visual.prototype.update = function (options) {
@@ -15495,14 +15495,14 @@ var powerbi;
                         var yAxisWidth = 0;
                         var yFormatter;
                         if (this.model.settings.yAxis.show) {
-                            yFormatter = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility.Formatter.getFormatter({
+                            yFormatter = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility.Formatter.getFormatter({
                                 format: this.model.dataPoints[0].format,
                                 value: this.model.settings.yAxis.unit,
                                 formatSingleValues: (this.model.settings.yAxis.unit == 0),
                                 precision: this.model.settings.yAxis.precision,
                                 displayUnitSystemType: 0
                             });
-                            yAxisWidth = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.TextUtility.measureTextWidth({
+                            yAxisWidth = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.TextUtility.measureTextWidth({
                                 fontSize: '11px',
                                 fontFamily: 'sans-serif',
                                 text: yFormatter.format(this.model.domain.end)
@@ -15517,7 +15517,7 @@ var powerbi;
                                 labelColor: this.model.settings.legend.labelColor.solid.color,
                                 fontSize: this.model.settings.legend.fontSize
                             }, options.viewport);
-                            PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.appendLegendMargins(this.legend, margin);
+                            dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.appendLegendMargins(this.legend, margin);
                         }
                         else {
                             this.legend.drawLegend({ dataPoints: [] }, options.viewport);
@@ -15561,7 +15561,7 @@ var powerbi;
                         var xIsCategorical = (this.model.settings.xAxis.type === 'categorical');
                         if (categoryIsDate) {
                             var dateRange = d3.extent(categories); //this.model.dataPoints, function (d) { return d.category; });
-                            xFormatter = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility.Formatter.getAxisDatesFormatter(dateRange[0], dateRange[1]);
+                            xFormatter = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility.Formatter.getAxisDatesFormatter(dateRange[0], dateRange[1]);
                             x = d3.time.scale().range(xRange)
                                 .domain(dateRange);
                         }
@@ -15589,16 +15589,16 @@ var powerbi;
                             var tickMaxWidth = ((xRange[1] - xRange[0]) / computedNumTicks);
                             if (tickMaxWidth < 20) {
                                 labels.attr("transform", "rotate(-90)").attr('dy', '-0.5em').style("text-anchor", "end")
-                                    .call(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.TextUtility.truncateAxis, plotSize.height * 0.3);
+                                    .call(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.TextUtility.truncateAxis, plotSize.height * 0.3);
                             }
                             else if (tickMaxWidth < 45) {
                                 labels.attr("transform", function (d) {
                                     return "translate(" + this.getBBox().height * -2 + "," + this.getBBox().height + ")rotate(-35)";
                                 }).attr('dy', '0').attr('dx', '2.5em').style("text-anchor", "end")
-                                    .call(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.TextUtility.truncateAxis, plotSize.height * 0.3);
+                                    .call(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.TextUtility.truncateAxis, plotSize.height * 0.3);
                             }
                             else {
-                                labels.call(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.TextUtility.wrapAxis, tickMaxWidth);
+                                labels.call(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.TextUtility.wrapAxis, tickMaxWidth);
                             }
                             var n = axis.node();
                             xAxisHeight = n.getBBox().height;
@@ -15643,7 +15643,7 @@ var powerbi;
                                     .attr('fill', (this.model.settings.dataPoint.fillShapes ? dataPoint.color : 'none'))
                                     .attr('stroke', (this.model.settings.dataPoint.fillShapes ? 'none' : dataPoint.color));
                                 /*.on('click', function(d) {
-                                    selectionManager.select(dataPoint.selectionId).then((ids: ISelectionId[]) => {
+                                    selectionManager.select(dataPoint.identity).then((ids: ISelectionId[]) => {
                                         
                                         d3.selectAll('.point').attr({
                                             'fill-opacity': (ids.length > 0 ? 0.3 : 1)
@@ -15657,7 +15657,7 @@ var powerbi;
                                     (<Event>d3.event).stopPropagation();
                                 });*/
                                 if (this.model.settings.dataLabels.show) {
-                                    var formattedValue = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility.Formatter.format(dataPoint.value, {
+                                    var formattedValue = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility.Formatter.format(dataPoint.value, {
                                         format: dataPoint.format,
                                         formatSingleValues: (this.model.settings.dataLabels.unit == 0),
                                         value: this.model.settings.dataLabels.unit,
@@ -15665,7 +15665,7 @@ var powerbi;
                                         displayUnitSystemType: 2,
                                         allowFormatBeautification: false
                                     });
-                                    var fontSize = PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.PixelConverter.fromPoint(this.model.settings.dataLabels.fontSize);
+                                    var fontSize = dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.PixelConverter.fromPoint(this.model.settings.dataLabels.fontSize);
                                     svgContainer.append('text')
                                         .classed('dataLabel', true)
                                         .text(formattedValue)
@@ -15694,13 +15694,13 @@ var powerbi;
                                 return dataPoint.tooltips;
                             return null;
                         }, function (tooltipEvent) { return null; });
-                        PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility.t([this.meta.name, this.meta.version], this.element, options, this.host, {
+                        dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility.t([this.meta.name, this.meta.version], this.element, options, this.host, {
                             'cd1': this.model.settings.colorBlind.vision,
                             'cd6': this.model.settings.legend.show,
                             'cd15': this.meta.dev
                         });
                         //Color Blind module
-                        PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.OKVizUtility.applyColorBlindVision(this.model.settings.colorBlind.vision, this.element);
+                        dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.OKVizUtility.applyColorBlindVision(this.model.settings.colorBlind.vision, this.element);
                     };
                     Visual.prototype.destroy = function () {
                     };
@@ -15826,8 +15826,8 @@ var powerbi;
                     };
                     return Visual;
                 }());
-                PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.Visual = Visual;
-            })(PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 || (visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = {}));
+                dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.Visual = Visual;
+            })(dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 || (visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = {}));
         })(visual = extensibility.visual || (extensibility.visual = {}));
     })(extensibility = powerbi.extensibility || (powerbi.extensibility = {}));
 })(powerbi || (powerbi = {}));
@@ -15837,13 +15837,13 @@ var powerbi;
     (function (visuals) {
         var plugins;
         (function (plugins) {
-            plugins.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 = {
-                name: 'PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7',
+            plugins.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855 = {
+                name: 'dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855',
                 displayName: 'Dot Plot by OKViz',
                 class: 'Visual',
                 version: '1.0.0',
                 apiVersion: '1.5.0',
-                create: function (options) { return new powerbi.extensibility.visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7.Visual(options); },
+                create: function (options) { return new powerbi.extensibility.visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855.Visual(options); },
                 custom: true
             };
         })(plugins = visuals.plugins || (visuals.plugins = {}));

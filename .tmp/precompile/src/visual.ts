@@ -28,7 +28,7 @@ import tooltip = powerbi.extensibility.utils.tooltip;
 import TooltipEnabledDataPoint = powerbi.extensibility.utils.tooltip.TooltipEnabledDataPoint;
 import TooltipEventArgs = powerbi.extensibility.utils.tooltip.TooltipEventArgs;
 
-module powerbi.extensibility.visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7  {
+module powerbi.extensibility.visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855  {
 
     interface VisualMeta {
         name: string;
@@ -607,7 +607,7 @@ module powerbi.extensibility.visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7 
                         .attr('fill', (this.model.settings.dataPoint.fillShapes ? dataPoint.color : 'none'))
                         .attr('stroke', (this.model.settings.dataPoint.fillShapes ? 'none' : dataPoint.color));
                         /*.on('click', function(d) {
-                            selectionManager.select(dataPoint.selectionId).then((ids: ISelectionId[]) => {
+                            selectionManager.select(dataPoint.identity).then((ids: ISelectionId[]) => {
                                 
                                 d3.selectAll('.point').attr({
                                     'fill-opacity': (ids.length > 0 ? 0.3 : 1)

@@ -1,4 +1,4 @@
-module powerbi.extensibility.visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7  {
+module powerbi.extensibility.visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855  {
     /**
      * Gets property value for a particular object.
      *

@@ -11,7 +11,7 @@ import InteractivityModule = powerbi.extensibility.utils.interactivity;
 import IInteractivityService = powerbi.extensibility.utils.interactivity.IInteractivityService;
 import IInteractiveBehavior = powerbi.extensibility.utils.interactivity.IInteractiveBehavior;
 
-module powerbi.extensibility.visual.PBI_CV_175CB170_A56D_41C1_BA65_C17F395ADAE7  {
+module powerbi.extensibility.visual.dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855  {
     
     export interface VisualBehaviorOptions {
         selection: d3.Selection<SelectableDataPoint>;
